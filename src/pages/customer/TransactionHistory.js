@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react"
 import { db } from "../../config/firebasePrivate"
 import {
-  collection, query, where, onSnapshot, getDocs
+  collection, query, where, onSnapshot
 } from "firebase/firestore"
 import { useAuth } from "../../context/AuthContext"
 import CustomerLayout from "../../components/layout/CustomerLayout"
